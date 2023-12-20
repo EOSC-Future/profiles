@@ -8,7 +8,7 @@ VRE related and user environment images for workflows and notebooks.
 
 We strongly recommend that every user enviroment image uses the latests `vre-singleuser` image as a base layer (the `FROM` command in the `Dockerfile`). For example:
 ```Dockerfile
-FROM ghcr.io/vre-hub/vre-singleuser:sha-40199b2
+FROM ghcr.io/vre-hub/vre-singleuser:sha-423e01a
 ```
 or 
 ```Dockerfile
