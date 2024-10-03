@@ -3,7 +3,7 @@ name: Docker automatic build and publish
 on:
   push:
     branches: 
-      - main
+      - reana_dev
 
 env:
   REGISTRY: ghcr.io
