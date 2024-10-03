@@ -95,6 +95,8 @@ RUN apt-get update -qq \
     && echo /opt/root/lib >> /etc/ld.so.conf \
     && ldconfig
 
+RUN apt-get -y install libxrootd-client-dev libxrootd-dev libxrootd-private-dev libxrootd-server-dev
+
 ENV ROOTSYS /opt/root
 ENV PATH $ROOTSYS/bin:$PATH
 ENV PYTHONPATH $ROOTSYS/lib:$PYTHONPATH
