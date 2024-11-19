@@ -3,7 +3,7 @@ name: Docker automatic build and publish
 on:
   push:
     branches: 
-      - main
+      - wdf_env
 
 env:
   REGISTRY: ghcr.io
