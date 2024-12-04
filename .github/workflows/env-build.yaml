@@ -3,7 +3,7 @@ name: Docker automatic build and publish
 on:
   push:
     branches: 
-      - main
+      - itwin_ontop_vre
 
 env:
   REGISTRY: ghcr.io
