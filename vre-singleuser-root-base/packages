@@ -1,5 +1,5 @@
-cmake
 ca-certificates
+cmake
 curl
 davix-dev
 dcap-dev
@@ -7,6 +7,7 @@ fonts-freefont-ttf
 g++
 gcc
 gfortran
+git
 libafterimage-dev
 libcfitsio-dev
 libfcgi-dev
@@ -24,7 +25,8 @@ libjpeg-dev
 liblz4-dev
 liblzma-dev
 libmysqlclient-dev
-libpcre++-dev
+libpcre2-dev
+libpcre3-dev
 libpng-dev
 libpq-dev
 libsqlite3-dev
@@ -37,13 +39,15 @@ libxft-dev
 libxml2-dev
 libxpm-dev
 libxxhash-dev
+libvdt-dev
 libz-dev
 libzstd-dev
 locales
 make
-python3
+nlohmann-json3-dev
 python3-dev
 python3-numpy
-rsync
 srm-ifce-dev
 unixodbc-dev
+python-is-python3
+xrootd-plugins
