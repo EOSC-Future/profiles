@@ -3,7 +3,7 @@ name: Docker automatic build and publish
 on:
   push:
     branches: 
-      - main
+      - rucio_swan_integration
 
 env:
   REGISTRY: ghcr.io
