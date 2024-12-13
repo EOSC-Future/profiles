@@ -3,7 +3,7 @@ name: Docker automatic build and publish
 on:
   push:
     branches: 
-      - main
+      - dev_image
 
 env:
   REGISTRY: ghcr.io
